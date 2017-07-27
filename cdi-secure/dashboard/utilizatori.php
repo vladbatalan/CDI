@@ -203,7 +203,7 @@
                     ";
                 }
                 echo "</table>";
-                echo "<input type='hidden' name='token' value='".Token::generate()."'";
+                echo "<input type='hidden' name='token' value='".Token::generate()."'>";
                 echo "<input type='submit' name='modifica' value='Produce modificari'>";
                 echo "</form>";
             ?>
